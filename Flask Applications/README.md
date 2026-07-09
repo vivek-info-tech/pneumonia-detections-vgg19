@@ -54,11 +54,7 @@ This project uses VGG19 for pneumonia detection and provides a simple
 
 
 
-You said:
-write github description for the project
-ChatGPT said:
-ChatGPT
-Here’s a concise GitHub description for your Pneumonia Detection using VGG19 project:
+ 
 
 Pneumonia Detection using VGG19
 This project uses a VGG19 convolutional neural network (CNN) model to detect pneumonia from chest X-ray images. The model classifies images as either pneumonia or normal and is deployed in a simple web application using Flask.
