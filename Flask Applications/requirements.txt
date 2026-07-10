@@ -21,7 +21,7 @@ GitPython==3.1.43
 glcontext==3.0.0
 google-pasta==0.2.0
 grpcio==1.68.1
-gunicorn app:app
+gunicorn 
 h11==0.14.0
 h5py==3.12.1
 idna==3.10
