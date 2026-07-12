@@ -1,4 +1,5 @@
 from flask import Flask, request, render_template,jsonify
+from huggingface_hub import hf_hub_download
 from keras.api.models import load_model
 import numpy as np
 import cv2
@@ -29,9 +30,9 @@ from keras.api.preprocessing import image
 
 
 
-
+model_path = hf_hub_download(repo_id="vivekinfotech/healthCare", filename="vgg_unfrozen.h5")
 app=Flask(__name__)
-model=load_model("./model/vgg_unfrozen.h5")
+model=load_model(model_path)
 
 def get_className(classno):
     if classno==0:
